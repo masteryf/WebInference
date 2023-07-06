@@ -1,15 +1,7 @@
-import time
-import torch
 import cv2
-import numpy as np
-import torch
-import torch.nn as nn
 import torch.nn.functional as F
-import torchvision.models
 from PIL import Image
 from torchvision import transforms
-import socket
-import urllib.request
 from model.GoogleNet.GoogleNet import model, labels
 
 DEVICE = "cpu"
